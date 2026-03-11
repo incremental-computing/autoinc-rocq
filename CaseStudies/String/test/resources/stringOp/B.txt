@@ -1,0 +1,7 @@
+Fully skipping past all the matched characters when detecting a mismatch will not
+work when the pattern could match itself at any position overlapping the point of the
+mismatch. For example, when searching for the pattern A A B A A A in the text
+A A B A A B A A A A, we first detect the mismatch at position 5, but we had better
+restart at position 3 to continue the search, since otherwise we would miss the match.
+The insight of the KMP algorithm is that we can decide ahead of time exactly how to
+restart the search, because that decision depends only on the pattern.

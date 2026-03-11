@@ -1,0 +1,26 @@
+As a specific example, suppose that we have a two-character alphabet and are search-
+ing for the pattern B A A A A A A A A A. Now, suppose that we match five char-
+acters in the pattern, with a mismatch on the sixth. When the mismatch is detected,
+we know that the six previous
+characters in the text must
+be B A A A A B (the first
+five match and the sixth does
+not), with the text pointer
+now pointing at the B at the
+end. The key observation is
+that we need not back up the
+text pointer i, since the previ-
+ous four characters in the text
+are all As and do not match
+the first character in the pat-
+tern. Furthermore, the char-
+acter currently pointed to by
+i is a B and does match the first character in the pattern, so we can increment i and
+compare the next character in the text with the second character in the pattern. This
+argument leads to the observation that, for this pattern, we can change the else clause
+in the alternate brute-force implementation to just set j = 1 (and not decrement i).
+Since the value of i does not change within the loop, this method does at most N char-
+acter compares. The practical effect of this particular change is limited to this particular
+pattern, but the idea is worth thinking about—the Knuth-Morris-Pratt algorithm is a
+generalization of it. Surprisingly, it is always possible to find a value to set the j pointer
+to on a mismatch, so that the i pointer is never decremented.

@@ -1,0 +1,25 @@
+0 - Insertion before the occurence (best case)
+1 - deletion before the occurence (best case)
+2 - deletion after the occurence (best case)
+3 - The character is not found before doing deletion (best case)
+4 - The deleted string contains the last occurrence of the character (worst case)
+5 - The character does not exist before, then do insertion (intermediate case)
+6 - insertion after the last occurence  (intermediate case)
+
+
+change,rate(%),speedup
+0,1,103.32
+0,5,65.41
+0,10,57.43
+1,1,88.62
+1,5,56.41
+1,10,73.55
+2,1,88.07
+2,5,76.70
+2,10,116.55
+4,1,1.42
+4,5,1.37
+4,10,1.36
+6,1,93.42
+6,5,36.58
+6,10,26.64

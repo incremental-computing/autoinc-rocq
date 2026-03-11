@@ -1,0 +1,52 @@
+; (test
+;  (name test_string)
+;  (modules test_string)
+;  (libraries autoinc mtime.clock)
+; )
+
+(test
+ (name test_string_op)
+ (modules base test_string_op_char test_string_op_string test_string_op)
+ (libraries autoinc mtime.clock)
+)
+
+(test
+ (name exp_last_index_of)
+ (modules base experiment exp_last_index_of rand)
+ (libraries autoinc mtime.clock)
+)
+
+(test
+ (name exp_last_index_of_state)
+ (modules base diffop_experiment exp_last_index_of_state rand)
+ (libraries autoinc mtime.clock)
+)
+
+(test
+ (name exp_last_index_of_state_single_fun)
+ (modules base diffop_experiment exp_last_index_of_state_single_fun rand)
+ (libraries autoinc mtime.clock)
+)
+
+(test
+ (name exp_string_op)
+ (modules base diffop_experiment exp_string_op rand)
+ (libraries autoinc mtime.clock)
+)
+
+(test
+ (name exp_string_op_opt)
+ (modules base diffop_experiment exp_string_op_opt rand)
+ (libraries autoinc mtime.clock)
+)
+
+(test
+ (name exp_concat)
+ (modules base diffop_experiment exp_concat)
+ (libraries autoinc mtime.clock)
+)
+
+
+(env
+  (dev
+    (flags (:standard -w -27-32-33-34))))

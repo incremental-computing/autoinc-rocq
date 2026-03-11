@@ -1,0 +1,273 @@
+Input size : 1000
+Input change : Pair_both (Bag_union (957 .. 961), Bag_union (1961 .. 1965))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 0, Shift 0); Pair_both (Shift 0, Shift 0); ] 
+Memory usage: 0.46875
+Incremental computation : 
+	Init state time: 1.5e-05
+	Time: 2e-06
+Recomputation : 
+	Time: 1.1e-05
+Speedup : 5.5
+
+
+Input size : 1000
+Input change : Pair_both (Bag_union (528 .. 532), Bag_diff (911 .. 915))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 0, Shift 0); Pair_both (Shift 0, Shift 0); ] 
+Memory usage: 0.46875
+Incremental computation : 
+	Init state time: 1.2e-05
+	Time: 1e-06
+Recomputation : 
+	Time: 2.3e-05
+Speedup : 23.
+
+
+Input size : 1000
+Input change : Pair_both (Bag_diff (471 .. 475), Bag_diff (971 .. 975))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 0, Shift 0); Pair_both (Shift 0, Shift 0); ] 
+Memory usage: 0.46875
+Incremental computation : 
+	Init state time: 1.1e-05
+	Time: 0.
+Recomputation : 
+	Time: 4e-05
+Speedup : inf
+
+
+Input size : 2000
+Input change : Pair_both (Bag_diff (583 .. 592), Bag_diff (1529 .. 1538))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 0, Shift 0); Pair_both (Shift 0, Shift 0); ] 
+Memory usage: 0.46875
+Incremental computation : 
+	Init state time: 0.000312
+	Time: 3e-06
+Recomputation : 
+	Time: 8.7e-05
+Speedup : 29.
+
+
+Input size : 2000
+Input change : Pair_both (Bag_union (1106 .. 1115), Bag_diff (1497 .. 1506))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 110, Shift -890); Pair_both (Shift 0, Shift 0); ] 
+Memory usage: 0.46875
+Incremental computation : 
+	Init state time: 0.00031
+	Time: 3e-06
+Recomputation : 
+	Time: 5.6e-05
+Speedup : 18.6666666667
+
+
+Input size : 2000
+Input change : Pair_both (Bag_union (1722 .. 1731), Bag_diff (1314 .. 1323))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 730, Shift -770); Pair_both (Shift 0, Shift 0); ] 
+Memory usage: 0.46875
+Incremental computation : 
+	Init state time: 0.00031
+	Time: 6e-06
+Recomputation : 
+	Time: 4.1e-05
+Speedup : 6.83333333333
+
+
+Input size : 4000
+Input change : Pair_both (Bag_union (3440 .. 3459), Bag_diff (2045 .. 2064))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 1450, Shift -550); Pair_both (Shift 0, Shift 0); ] 
+Memory usage: 0.46875
+Incremental computation : 
+	Init state time: 0.001745
+	Time: 3e-05
+Recomputation : 
+	Time: 5.6e-05
+Speedup : 1.86666666667
+
+
+Input size : 4000
+Input change : Pair_both (Bag_diff (1293 .. 1312), Bag_union (4472 .. 4491))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 0, Shift 0); Pair_both (Shift 0, Shift 0); ] 
+Memory usage: 0.46875
+Incremental computation : 
+	Init state time: 0.001701
+	Time: 4.8e-05
+Recomputation : 
+	Time: 0.000247
+Speedup : 5.14583333333
+
+
+Input size : 4000
+Input change : Pair_both (Bag_diff (1958 .. 1977), Bag_diff (2332 .. 2351))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 0, Shift 0); Pair_both (Shift 0, Shift 0); ] 
+Memory usage: 0.46875
+Incremental computation : 
+	Init state time: 0.001544
+	Time: 2.6e-05
+Recomputation : 
+	Time: 0.000394
+Speedup : 15.1538461538
+
+
+Input size : 8000
+Input change : Pair_both (Bag_diff (444 .. 483), Bag_diff (7421 .. 7460))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 0, Shift 0); Pair_both (Shift 0, Shift 0); ] 
+Memory usage: 1.40625
+Incremental computation : 
+	Init state time: 0.008876
+	Time: 0.000156
+Recomputation : 
+	Time: 0.001378
+Speedup : 8.83333333333
+
+
+Input size : 8000
+Input change : Pair_both (Bag_diff (2011 .. 2050), Bag_union (10753 .. 10792))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 0, Shift 0); Pair_both (Shift 0, Shift 0); ] 
+Memory usage: 1.40625
+Incremental computation : 
+	Init state time: 0.008729
+	Time: 3.3e-05
+Recomputation : 
+	Time: 0.000719
+Speedup : 21.7878787879
+
+
+Input size : 8000
+Input change : Pair_both (Bag_union (5301 .. 5340), Bag_union (15345 .. 15384))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 1340, Shift -660); Pair_both (Shift 0, Shift 0); ] 
+Memory usage: 1.40625
+Incremental computation : 
+	Init state time: 0.008925
+	Time: 0.000167
+Recomputation : 
+	Time: 0.000152
+Speedup : 0.910179640719
+
+
+Input size : 16000
+Input change : Pair_both (Bag_union (14366 .. 14445), Bag_union (24706 .. 24785))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 6440, Shift -560); Pair_both (Shift 0, Shift 0); ] 
+Memory usage: 3.7734375
+Incremental computation : 
+	Init state time: 0.052771
+	Time: 8.5e-05
+Recomputation : 
+	Time: 0.000406
+Speedup : 4.77647058824
+
+
+Input size : 16000
+Input change : Pair_both (Bag_diff (7630 .. 7709), Bag_union (28659 .. 28738))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 0, Shift 0); Pair_both (Shift 0, Shift 0); ] 
+Memory usage: 4.33984375
+Incremental computation : 
+	Init state time: 0.051971
+	Time: 0.000111
+Recomputation : 
+	Time: 0.005792
+Speedup : 52.1801801802
+
+
+Input size : 16000
+Input change : Pair_both (Bag_union (11732 .. 11811), Bag_union (28181 .. 28260))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 50, Shift -12950); Pair_both (Shift 3760, Shift 12260); ] 
+Memory usage: 4.33984375
+Incremental computation : 
+	Init state time: 0.052154
+	Time: 0.000911
+Recomputation : 
+	Time: 0.000384
+Speedup : 0.42151481888
+
+
+Input size : 32000
+Input change : Pair_both (Bag_diff (9004 .. 9163), Bag_diff (30753 .. 30912))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 0, Shift 0); Pair_both (Shift 0, Shift 0); ] 
+Memory usage: 15.2890625
+Incremental computation : 
+	Init state time: 0.32134
+	Time: 0.000998
+Recomputation : 
+	Time: 0.038256
+Speedup : 38.3326653307
+
+
+Input size : 32000
+Input change : Pair_both (Bag_union (27786 .. 27945), Bag_union (57410 .. 57569))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 0, Shift 0); Pair_both (Shift 11940, Shift 25440); ] 
+Memory usage: 15.41015625
+Incremental computation : 
+	Init state time: 0.317868
+	Time: 0.003455
+Recomputation : 
+	Time: 0.002325
+Speedup : 0.672937771346
+
+
+Input size : 32000
+Input change : Pair_both (Bag_union (22199 .. 22358), Bag_union (39005 .. 39164))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 6350, Shift -650); Pair_both (Shift 0, Shift 0); ] 
+Memory usage: 15.41015625
+Incremental computation : 
+	Init state time: 0.327497
+	Time: 0.006856
+Recomputation : 
+	Time: 0.002513
+Speedup : 0.366540256709
+
+
+Input size : 64000
+Input change : Pair_both (Bag_diff (21689 .. 22008), Bag_union (69652 .. 69971))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 0, Shift 0); Pair_both (Shift 0, Shift 0); ] 
+Memory usage: 62.37890625
+Incremental computation : 
+	Init state time: 2.194773
+	Time: 0.006289
+Recomputation : 
+	Time: 0.10459
+Speedup : 16.6306249006
+
+
+Input size : 64000
+Input change : Pair_both (Bag_diff (5472 .. 5791), Bag_union (65929 .. 66248))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 0, Shift 0); Pair_both (Shift 0, Shift 2000); ] 
+Memory usage: 57.64453125
+Incremental computation : 
+	Init state time: 2.163617
+	Time: 0.041677
+Recomputation : 
+	Time: 0.034647
+Speedup : 0.831321832186
+
+
+Input size : 64000
+Input change : Pair_both (Bag_diff (9653 .. 9972), Bag_diff (36296 .. 36615))
+Input change size (%) : 1.% 
+Output change size : [Pair_both (Shift 0, Shift 0); Pair_both (Shift 0, Shift 0); ] 
+Memory usage: 57.64453125
+Incremental computation : 
+	Init state time: 2.164523
+	Time: 0.031506
+Recomputation : 
+	Time: 0.058576
+Speedup : 1.85920142195
+
+

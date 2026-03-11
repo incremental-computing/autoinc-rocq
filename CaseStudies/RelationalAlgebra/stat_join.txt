@@ -1,0 +1,294 @@
+Input size : 1000
+Input change : Pair_both (Bag_union (957 .. 961), Bag_union (1961 .. 1965))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 0
+ 
+Memory usage: 0.46875
+Incremental computation : 
+	Init state time: 0.000307
+	Time: 9e-06
+Recomputation : 
+	Time: 0.000128
+Speedup : 14.2222222222
+
+
+Input size : 1000
+Input change : Pair_both (Bag_union (528 .. 532), Bag_diff (911 .. 915))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 0
+ 
+Memory usage: 0.46875
+Incremental computation : 
+	Init state time: 0.000288
+	Time: 7e-06
+Recomputation : 
+	Time: 0.000154
+Speedup : 22.
+
+
+Input size : 1000
+Input change : Pair_both (Bag_diff (471 .. 475), Bag_diff (971 .. 975))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 0
+ 
+Memory usage: 0.46875
+Incremental computation : 
+	Init state time: 0.000279
+	Time: 5e-06
+Recomputation : 
+	Time: 0.000166
+Speedup : 33.2
+
+
+Input size : 2000
+Input change : Pair_both (Bag_diff (583 .. 592), Bag_diff (1529 .. 1538))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 1
+ 
+Memory usage: 0.46875
+Incremental computation : 
+	Init state time: 0.000806
+	Time: 8e-06
+Recomputation : 
+	Time: 0.000304
+Speedup : 38.
+
+
+Input size : 2000
+Input change : Pair_both (Bag_union (1106 .. 1115), Bag_diff (1497 .. 1506))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 1
+ 
+Memory usage: 0.46875
+Incremental computation : 
+	Init state time: 0.00066
+	Time: 8e-06
+Recomputation : 
+	Time: 0.000344
+Speedup : 43.
+
+
+Input size : 2000
+Input change : Pair_both (Bag_union (1722 .. 1731), Bag_diff (1314 .. 1323))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 3
+ 
+Memory usage: 0.46875
+Incremental computation : 
+	Init state time: 0.000878
+	Time: 9e-06
+Recomputation : 
+	Time: 0.000302
+Speedup : 33.5555555556
+
+
+Input size : 4000
+Input change : Pair_both (Bag_union (3440 .. 3459), Bag_diff (2045 .. 2064))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 12
+ 
+Memory usage: 0.46875
+Incremental computation : 
+	Init state time: 0.001872
+	Time: 1.2e-05
+Recomputation : 
+	Time: 0.000502
+Speedup : 41.8333333333
+
+
+Input size : 4000
+Input change : Pair_both (Bag_diff (1293 .. 1312), Bag_union (4472 .. 4491))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 12
+ 
+Memory usage: 0.46875
+Incremental computation : 
+	Init state time: 0.001462
+	Time: 1.8e-05
+Recomputation : 
+	Time: 0.000831
+Speedup : 46.1666666667
+
+
+Input size : 4000
+Input change : Pair_both (Bag_diff (1958 .. 1977), Bag_diff (2332 .. 2351))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 12
+ 
+Memory usage: 0.46875
+Incremental computation : 
+	Init state time: 0.001441
+	Time: 1.8e-05
+Recomputation : 
+	Time: 0.001062
+Speedup : 59.
+
+
+Input size : 8000
+Input change : Pair_both (Bag_diff (444 .. 483), Bag_diff (7421 .. 7460))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 46
+ 
+Memory usage: 0.9375
+Incremental computation : 
+	Init state time: 0.00267
+	Time: 3.6e-05
+Recomputation : 
+	Time: 0.003041
+Speedup : 84.4722222222
+
+
+Input size : 8000
+Input change : Pair_both (Bag_diff (2011 .. 2050), Bag_union (10753 .. 10792))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 16
+ 
+Memory usage: 0.9375
+Incremental computation : 
+	Init state time: 0.002232
+	Time: 3e-05
+Recomputation : 
+	Time: 0.001662
+Speedup : 55.4
+
+
+Input size : 8000
+Input change : Pair_both (Bag_union (5301 .. 5340), Bag_union (15345 .. 15384))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 48
+ 
+Memory usage: 0.9375
+Incremental computation : 
+	Init state time: 0.002035
+	Time: 1.7e-05
+Recomputation : 
+	Time: 0.000582
+Speedup : 34.2352941176
+
+
+Input size : 16000
+Input change : Pair_both (Bag_union (14366 .. 14445), Bag_union (24706 .. 24785))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 64
+ 
+Memory usage: 1.40625
+Incremental computation : 
+	Init state time: 0.003971
+	Time: 6.2e-05
+Recomputation : 
+	Time: 0.001138
+Speedup : 18.3548387097
+
+
+Input size : 16000
+Input change : Pair_both (Bag_diff (7630 .. 7709), Bag_union (28659 .. 28738))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 64
+ 
+Memory usage: 1.875
+Incremental computation : 
+	Init state time: 0.003568
+	Time: 4.3e-05
+Recomputation : 
+	Time: 0.007646
+Speedup : 177.813953488
+
+
+Input size : 16000
+Input change : Pair_both (Bag_union (11732 .. 11811), Bag_union (28181 .. 28260))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 195
+ 
+Memory usage: 2.8125
+Incremental computation : 
+	Init state time: 0.003163
+	Time: 2.2e-05
+Recomputation : 
+	Time: 0.00095
+Speedup : 43.1818181818
+
+
+Input size : 32000
+Input change : Pair_both (Bag_diff (9004 .. 9163), Bag_diff (30753 .. 30912))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 256
+ 
+Memory usage: 5.7421875
+Incremental computation : 
+	Init state time: 0.006933
+	Time: 8.6e-05
+Recomputation : 
+	Time: 0.036602
+Speedup : 425.604651163
+
+
+Input size : 32000
+Input change : Pair_both (Bag_union (27786 .. 27945), Bag_union (57410 .. 57569))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 548
+ 
+Memory usage: 6.60546875
+Incremental computation : 
+	Init state time: 0.006097
+	Time: 6.6e-05
+Recomputation : 
+	Time: 0.002492
+Speedup : 37.7575757576
+
+
+Input size : 32000
+Input change : Pair_both (Bag_union (22199 .. 22358), Bag_union (39005 .. 39164))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 768
+ 
+Memory usage: 6.60546875
+Incremental computation : 
+	Init state time: 0.006037
+	Time: 2.7e-05
+Recomputation : 
+	Time: 0.00255
+Speedup : 94.4444444444
+
+
+Input size : 64000
+Input change : Pair_both (Bag_diff (21689 .. 22008), Bag_union (69652 .. 69971))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 1024
+ 
+Memory usage: 17.5859375
+Incremental computation : 
+	Init state time: 0.015891
+	Time: 0.000189
+Recomputation : 
+	Time: 0.081068
+Speedup : 428.931216931
+
+
+Input size : 64000
+Input change : Pair_both (Bag_diff (5472 .. 5791), Bag_union (65929 .. 66248))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 2599
+ 
+Memory usage: 17.5859375
+Incremental computation : 
+	Init state time: 0.01605
+	Time: 0.000148
+Recomputation : 
+	Time: 0.023515
+Speedup : 158.885135135
+
+
+Input size : 64000
+Input change : Pair_both (Bag_diff (9653 .. 9972), Bag_diff (36296 .. 36615))
+Input change size (%) : 1.% 
+Output change size : The size of output change: 2286
+ 
+Memory usage: 17.5859375
+Incremental computation : 
+	Init state time: 0.014709
+	Time: 0.000196
+Recomputation : 
+	Time: 0.045527
+Speedup : 232.280612245
+
+

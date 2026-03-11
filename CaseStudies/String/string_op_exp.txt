@@ -1,0 +1,23 @@
+0 - Doing deletion change to lhs - O(1)
+1 - Inserting k characters to lhs - O(k) 
+2 - Doing lastIndexOf's O(1) deletion change to rhs - O(k)
+3 - Doing lastIndexOf's O(k) insertion change of size k to rhs - O(2*k)
+4 - Deleting the last occurrence of 'A' in rhs - O(|lhs| + |rhs|)
+
+
+change,rate(%),speedup
+0,1,723.77
+0,5,714.41
+0,10,693.96
+1,1,402.86
+1,5,54.20
+1,10,31.15
+2,1,716.92
+2,5,727.77
+2,10,690.49
+3,1,226.48
+3,5,37.93
+3,10,20.93
+4,1,2.06
+4,5,2.08
+4,10,2.08

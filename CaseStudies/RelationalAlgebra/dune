@@ -1,0 +1,45 @@
+; (library
+;  (name autoinc) 
+;  (public_name autoinc)
+; )
+
+(env
+  (dev
+    (flags (:standard -w -27-32-33-34))))
+
+(executable
+ (name example1)
+)
+
+(executable
+ (name example2)
+)
+
+(executable
+ (name example3_Join)
+)
+
+(executable
+ (name example3_Join_quotient)
+)
+
+(executable
+ (name example4_Agg)
+)
+
+(executable
+ (name Example5_Project)
+)
+
+(executable
+ (name Example6_Project_Agg)
+)
+
+(executable
+ (name Experiment_1_Join)
+)
+(executable
+ (name Experiment_2_Agg_Join)
+)
+
+(include_subdirs qualified)
